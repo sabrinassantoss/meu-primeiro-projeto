@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-wudth, initial-scale=1.0">
+  <title>WorldPet</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="container-fluid p-2 bg-info text-center">
+    <nav class="navbar navbar-expand-lg bg-info">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">WorldPet</a><img src="img/patinha.jpeg" alt="patinha">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end bg-info" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="quemsomos.html">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nossotime.html">Nosso Time</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-person"></i> Minha Conta
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Meus pedidos</a></li>
+                <li><a class="dropdown-item" href="#">Assinaturas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Favoritos</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-link" href="#"><i class="bi bi-cart3"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner1.jpeg" class="d-block w-100" alt="AssinantesWorldPet">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner2jpeg.jpg" class="d-block w-100" alt="petiscos">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner3.jpeg" class="d-block w-100" alt="promocoes">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <section class="cotainer-fluid bg-light text-center p-5">
+    <h2 class="text-center">WorldPet shop online</h2><br>
+    <p class="text-center"> WorldPet é uma petshop online, que te permite comodidade, rapidez, e variedade de produtos
+      para seu melhor amigo.
+      <br><br>
+      <hr>
+    </p>
+    <div class="row">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-30 bg-info">
+            <img src="img/granplusfrangocao.jpeg" class="card-img-top" alt="Racao Granplus Gato">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Ração Granplus para cães adultos 10,1kg </h5>
+              <h2 class="card-subtitle text-light">R$149,90 </h2>
+              <p class="card-text"> Sabor Frango.
+                Alimento high premium Indicada para cães adultos, contém Blend de proteínas, deixa os músculos mais
+                fortes, reduz odor das fezes, livre de aromatizantes e corantes artificiais.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$134,91</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/goldengatoscastradosfrango.jpeg" class="card-img-top" alt="Racao gatos castrados">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Ração Golden para gatos castrados 10,1kg</h5>
+              <h2 class="card-subtitle text-light">R$169,90</h2>
+              <p class="card-text"> Sabor Frango. Auxilia no controle do peso, contribui para o controle do peso,
+                essencial para o coração e olhos mais saudáveis, contém minerais balanceados, promove o controle do pH e
+                a saúde do trato urinário.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$152,91</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/brinquedocao1.jpeg" class="card-img-top" alt="Brinquedo para cão">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Brinquedo para cães ossinho</h5>
+              <h2 class="card-subtitle text-light">R$31,90</h2>
+              <p class="card-text">Para desestresse de cães e educação alimentar.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$27,11</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/petiscowhiskasgato.jpeg" class="card-img-top" alt="Petiscogatos">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Petisco Whiskas Anti bola de pelos para gatos</h5>
+              <h2 class="card-subtitle text-light">R$10,90</h2>
+              <p class="card-text">Previne bola de pelos e melhora a disgestão.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$9,26</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/petiscodentalcao.jpeg" class="card-img-top" alt="Petiscos cao">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Petisco Pedigree dental para cães</h5>
+              <h2 class="card-subtitle text-light">R$11,20</h2>
+              <p class="card-text">Tratamento dentário e melhora o hálito do cão.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$9,52</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/coleirabatmangato.jpeg" class="card-img-top" alt="Coleira gato">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Coleira Batman para gatos tamanho único.</h5>
+              <h2 class="card-subtitle text-light">R$41,94</h2>
+              <p class="card-text">Design e estampa exclusiva. Possui 4 travas para um passeio seguro.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$35,64</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <div>
+    <h2>Clique para ver mais produtos!</h2><br>
+    <a href="produtos.html" type="button" class="btn btn-info">Ver mais</a>
+  </div>
+  <br><br>
+  <footer class="container-fluid bg-info">
+    <h5>Siga a WorldPet nas redes sociais!<br><br>
+      <i class="bi bi-instagram"></i>worldpet<br>
+      <i class="bi bi-twitter"></i>worldpet<br>
+      <i class="bi bi-facebook" href="#"></i>WorldPet <br>
+      <i class="bi bi-geo-alt-fill">Rua Boa Esperança, nº319, CEP 60534-170</i><br>
+      <i class="bi bi-whatsapp">+55 85 1234-5678</i>
+
+    </h5>
+    <p class="text-center">Desenvolvido por Sabrina Santos</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Suas compras</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Produto adicionado ao carrinho!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+        <a href="checkout.html" type="button" class="btn btn-success">Finalizar compra</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-wudth, initial-scale=1.0">
+  <title>WorldPet</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="container-fluid p-2 bg-info text-center">
+    <nav class="navbar navbar-expand-lg bg-info">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">WorldPet</a><img src="img/patinha.jpeg" alt="patinha">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end bg-info" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="quemsomos.html">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nossotime.html">Nosso Time</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-person"></i> Minha Conta
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Meus pedidos</a></li>
+                <li><a class="dropdown-item" href="#">Assinaturas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Favoritos</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-link" href="#"><i class="bi bi-cart3"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="text-center">
+    <div class="row">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-30 bg-info">
+            <img src="img/granplusfrangocao.jpeg" class="card-img-top" alt="Racao Granplus Gato">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Ração Granplus para cães adultos 10,1kg </h5>
+              <h2 class="card-subtitle text-light">R$149,90 </h2>
+              <p class="card-text"> Sabor Frango.
+                Alimento high premium Indicada para cães adultos, contém Blend de proteínas, deixa os músculos mais
+                fortes, reduz odor das fezes, livre de aromatizantes e corantes artificiais.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$134,91</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/goldengatoscastradosfrango.jpeg" class="card-img-top" alt="Racao gatos castrados">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Ração Golden para gatos castrados 10,1kg</h5>
+              <h2 class="card-subtitle text-light">R$169,90</h2>
+              <p class="card-text"> Sabor Frango. Auxilia no controle do peso, contribui para o controle do peso,
+                essencial para o coração e olhos mais saudáveis, contém minerais balanceados, promove o controle do pH e
+                a saúde do trato urinário.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$152,91</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/goldenduocaosalmaocordeiro.jpeg" class="card-img-top" alt="Racao Goden Cao duo">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Ração Golden Duo para cães adultos 10,1kg</h5>
+              <h2 class="card-subtitle text-light">R$149,90</h2>
+              <p class="card-text">Sabor Salmão e Cordeiro. Indicada para cães adultos, contém Blend de proteínas, deixa
+                os músculos mais fortes, reduz odor das fezes, livre de aromatizantes e corantes artificiais.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$134,91</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/brinquedocao.jpeg" class="card-img-top" alt="Brinquedo para cão">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Brinquedo para cães</h5>
+              <h2 class="card-subtitle text-light">R$31,90</h2>
+              <p class="card-text">Para desestresse de cães e educação alimentar.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$27,11</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/brinquedocao1.jpeg" class="card-img-top" alt="Brinquedo para cão">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Brinquedo para cães ossinho</h5>
+              <h2 class="card-subtitle text-light">R$31,90</h2>
+              <p class="card-text">Para desestresse de cães e educação alimentar.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$27,11</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/brinquedoossocao.jpeg" class="card-img-top" alt="Brinquedo osso para cão">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Brinquedo para cães osso bamboo</h5>
+              <h2 class="card-subtitle text-light">R$38,90</h2>
+              <p class="card-text">Para entreterimento do cão e limpeza dos dentes</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$36,06</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/petiscowhiskasgato.jpeg" class="card-img-top" alt="Petiscogatos">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Petisco Whiskas Anti bola de pelos para gatos</h5>
+              <h2 class="card-subtitle text-light">R$10,90</h2>
+              <p class="card-text">Previne bola de pelos e melhora a disgestão.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$9,26</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/petiscodentalcao.jpeg" class="card-img-top" alt="Petiscos cao">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Petisco Pedigree dental para cães</h5>
+              <h2 class="card-subtitle text-light">R$11,20</h2>
+              <p class="card-text">Tratamento dentário e melhora o hálito do cão.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$9,52</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/petiscodentalgatos.jpeg" class="card-img-top" alt="Petisco dental gatos">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Petiscos Purina dental para gatos</h5>
+              <h2 class="card-subtitle text-light">R$12,35</h2>
+              <p class="card-text">Diminui a formação de tártaro e mantém o hálito fresco.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$10,49</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/antipulgagatos.jpeg" class="card-img-top" alt="Antipulgas gato">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Anti-pulgas e carrapatos revolution para gatos</h5>
+              <h2 class="card-subtitle text-light">R$204,00</h2>
+              <p class="card-text">Eficaz tratamento e prevenção de pulgas e carrapatos e contribui para a desinfestação
+                do ambiente.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$174,16</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/antipulgacao.jpeg" class="card-img-top" alt="Racao Goden Cao duo">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Anti-pulgas e carrapatos NexGard para cães</h5>
+              <h2 class="card-subtitle text-light">R$87,75</h2>
+              <p class="card-text">Eficaz tratamento e prevenção de pulgas e carrapatos e contribui para a desinfestação
+                do ambiente.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$74,58</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/shampoocaoegato.jpeg" class="card-img-top" alt="Shampoo cães e gatos">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Shampoo Me.au Pet 5 em 1 para Cães e Gatos 500ml</h5>
+              <h2 class="card-subtitle text-light">R$15,00</h2>
+              <p class="card-text">Deixa os pelos macios e sedosos, limpa profundamente e elimina o odor.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$12,75</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/coleirabatmangato.jpeg" class="card-img-top" alt="Coleira gato">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Coleira Batman para gatos tamanho único.</h5>
+              <h2 class="card-subtitle text-light">R$41,94</h2>
+              <p class="card-text">Design e estampa exclusiva. Possui 4 travas para um passeio seguro.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$35,64</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/coleiracaorosa.jpeg" class="card-img-top" alt="Coleira cao">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Coleira para cães pequenos</h5>
+              <h2 class="card-subtitle text-light">R$39,99</h2>
+              <p class="card-text">Para cães pequenos, design exclusivo, possui 4 travas para um passeio seguro.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$33,99</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-info">
+            <img src="img/coleiraguiagato.jpeg" class="card-img-top" alt="Coleira gato guia">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Coleira para gatos com guia</h5>
+              <h2 class="card-subtitle text-light">R$50,10</h2>
+              <p class="card-text">Possui guia, design exclusivo, possui 4 travas para um passeio seguro.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-light">Assinantes pagam R$42,58</small>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Assinar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <footer class="container-fluid bg-info">
+    <h5>Siga a WorldPet nas redes sociais!<br><br>
+      <i class="bi bi-instagram"></i>worldpet<br>
+      <i class="bi bi-twitter"></i>worldpet<br>
+      <i class="bi bi-facebook" href="#"></i>WorldPet<br>
+      <i class="bi bi-geo-alt-fill">Rua Boa Esperança, nº319, CEP 60534-170</i><br>
+      <i class="bi bi-whatsapp">+55 85 1234-5678</i>
+
+    </h5>
+    <p class="text-center">Desenvolvido por Sabrina Santos</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Suas compras</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Produto adicionado ao carrinho!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+        <a href="checkout.html" type="button" class="btn btn-success">Finalizar compra</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+
+</html>
